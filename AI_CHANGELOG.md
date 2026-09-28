@@ -15,3 +15,7 @@ Entry format:
 ## 2026-09-28 — JunoAI
 - Changed: created this file
 - Why: owner's standing rule — every AI that touches this repo must log its changes here
+
+## 2026-09-28 — JunoAI
+- Changed: added .github/workflows/node-ci.yml (reusable CI workflow)
+- Why: shared CI for all family repos, no duplicated workflow files
