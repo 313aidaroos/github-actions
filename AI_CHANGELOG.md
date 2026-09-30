@@ -19,3 +19,7 @@ Entry format:
 ## 2026-09-28 — JunoAI
 - Changed: added .github/workflows/node-ci.yml (reusable CI workflow)
 - Why: shared CI for all family repos, no duplicated workflow files
+
+## 2026-09-30 — Claude (branch claude/awesome-newton-3tygzi)
+- Changed: `node-ci.yml` runs Node 22 (Node 20 is deprecated on GitHub runners and by supabase-js).
+- Why: family backend pass per Awad's 2026-09-30 decisions (ApixisWallet/AGENTS.md §0c D11–D16; live board: ApixisWallet/docs/FAMILY_STATUS.md). One SDK, one login kit, one world kit — copied from canonical, never patched by hand.
